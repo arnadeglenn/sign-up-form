@@ -180,6 +180,8 @@ input {
     box-sizing: border-box;
 }
 
+
+
 input:focus,
 input:active {
     background-color: rgb(237, 123, 254);
@@ -194,6 +196,10 @@ input:active {
     padding: 10px;
     box-sizing: border-box;
     outline: none;
+}
+
+input::placeholder {
+    color: rgba(155, 134, 251, 0.527);
 }
 
 input:valid {

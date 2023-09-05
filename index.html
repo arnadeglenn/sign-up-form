@@ -26,30 +26,30 @@
                         <div class="form-questions-left">
                             <div class="left-question-1">
                                 <label for="first-name">First Name:</label>
-                                <input type="text" name="first-name" id="first-name" required>
+                                <input minlength="2" type="text" name="first-name" id="first-name" placeholder="Rufus" required>
                             </div>
                             <div class="left-question-2">
                                 <label for="email">Email:</label>
-                                <input type="email" name="email" id="email" required>
+                                <input minlength="5" type="email" name="email" id="email" placeholder="rufus@gmail.com" required>
                             </div>
                             <div class="left-question-3">
                                 <label for="password">Password:</label>
-                                <input type="password" name="password" id="password" required>
+                                <input minlength="5" type="password" name="password" id="password" required>
                             </div>
                          
                         </div>
                         <div class="form-questions-right">
                             <div class="right-question-1">
                                 <label for="last-name">Last Name:</label>
-                                <input type="text" name="last-name" id="last-name" required>
+                                <input minlength="2" type="text" name="last-name" id="last-name" placeholder="Smith" required>
                             </div>
                             <div class="right-question-2">
                                 <label for="phone">Phone Number:</label>
-                                <input type="tel" inputmode="numeric" name="phone" id="phone" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" required>
+                                <input type="tel" inputmode="numeric" name="phone" id="phone" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" placeholder="800-555-4321"required>
                             </div>
                             <div class="right-question-3">
                                 <label for="password-verify">Re-enter Password:</label>
-                                <input type="password" name="password-verify" id="password-verify" required>
+                                <input minlength="5" type="password" name="password-verify" id="password-verify" required>
                             </div>
                         </div>
                     </div>
